@@ -1,1 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:journaldb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: journal-group
 
+server:
+  port: 8082
