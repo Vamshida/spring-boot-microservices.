@@ -140,6 +140,10 @@ This project contains two Spring Boot microservices for user management and jour
 - **Kafka**: Kafka will be started automatically with Docker Compose.
 
 ### 2. Run the System with Docker Compose
+1. Ensure Kafka and Zookeeper are running.
+2. Run the services using Docker:
+   ```bash
+   docker-compose up --build
 
 1. **Clone the repository**:
    ```bash
